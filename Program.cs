@@ -17,8 +17,7 @@ namespace etap1
             ImprimirCursosEscuela(engine.Escuela);
 
             Printer.WriteTitle("Alumnos Escuela");
-
-            ImprimirDatosAlumno(engine.Escuela);
+            
             /* var escuela = new Escuela("Platzy School", 2013, "Colombia", "Bogota");
             var escuela2 = new Escuela("SanPancho", 1850, TiposEscuela.Secundaria, ciudad:"Cusco");
             escuela.TipoEscuela = TiposEscuela.Primaria; */
@@ -99,7 +98,7 @@ namespace etap1
             }
         }
 
-        private static void ImprimirDatosAlumno(Escuela escuela){
+      /*   private static void ImprimirDatosAlumno(Escuela escuela){
 
              if (escuela?.Cursos != null)
             {
@@ -114,7 +113,7 @@ namespace etap1
                     }
                 }
             }
-        }
+        } */
 
         private static void ImprimirCursosWhile(Curso[] arregloCursos){
             int contador = 0;
