@@ -22,7 +22,6 @@ namespace CoreEscuela
             CargarCursos();
             CargarAsignaturas();
             CargarEvaluaciones();
-
         }
 
         private void CargarEvaluaciones()
@@ -67,7 +66,6 @@ namespace CoreEscuela
                     listaObj.AddRange(alumno.Evaluaciones);
                 }
             }
-
             return listaObj;
         }
 
