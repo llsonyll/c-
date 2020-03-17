@@ -19,7 +19,6 @@ namespace CoreEscuela
             Escuela = new Escuela("Platzi Academay", 2012, TiposEscuela.Primaria,
             ciudad: "Bogotá", pais: "Colombia"
             );
-
             CargarCursos();
             CargarAsignaturas();
             CargarEvaluaciones();
@@ -28,7 +27,6 @@ namespace CoreEscuela
 
         private void CargarEvaluaciones()
         {
-
             foreach (var curso in Escuela.Cursos)
             {
                 foreach (var asignatura in curso.Asignaturas)
@@ -51,7 +49,6 @@ namespace CoreEscuela
                     }
                 }
             }
-
         }
 
         public List<ObjetoEscuelaBase> GetObjetosEscuela()
