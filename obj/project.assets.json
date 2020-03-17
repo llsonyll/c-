@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sony_\\OneDrive\\Documentos\\git\\etap1\\etap1.csproj",
+      "projectUniqueName": "F:\\Dev_files\\C#_NetCore\\etap1.csproj",
       "projectName": "etap1",
-      "projectPath": "C:\\Users\\sony_\\OneDrive\\Documentos\\git\\etap1\\etap1.csproj",
+      "projectPath": "F:\\Dev_files\\C#_NetCore\\etap1.csproj",
       "packagesPath": "C:\\Users\\sony_\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sony_\\OneDrive\\Documentos\\git\\etap1\\obj\\",
+      "outputPath": "F:\\Dev_files\\C#_NetCore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sony_\\AppData\\Roaming\\NuGet\\NuGet.Config"

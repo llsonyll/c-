@@ -17,7 +17,7 @@ namespace CoreEscuela.App
             Escuela = new Escuela("Platzy School", 2013, "Colombia", "Bogota");            
             CargarCursos();                      
             CargarAsignaturas();
-            CargarEvaluaciones();
+            //CargarEvaluaciones();
         }
 
         private void CargarCursos(){

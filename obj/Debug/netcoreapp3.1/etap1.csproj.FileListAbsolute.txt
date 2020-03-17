@@ -20,3 +20,14 @@ C:\Users\sony_\OneDrive\Documentos\git\etap1\bin\Debug\netcoreapp3.1\etap1.runti
 C:\Users\sony_\OneDrive\Documentos\git\etap1\bin\Debug\netcoreapp3.1\etap1.runtimeconfig.dev.json
 C:\Users\sony_\OneDrive\Documentos\git\etap1\bin\Debug\netcoreapp3.1\etap1.dll
 C:\Users\sony_\OneDrive\Documentos\git\etap1\bin\Debug\netcoreapp3.1\etap1.pdb
+F:\Dev_files\C#_NetCore\bin\Debug\netcoreapp3.1\etap1.exe
+F:\Dev_files\C#_NetCore\bin\Debug\netcoreapp3.1\etap1.deps.json
+F:\Dev_files\C#_NetCore\bin\Debug\netcoreapp3.1\etap1.runtimeconfig.json
+F:\Dev_files\C#_NetCore\bin\Debug\netcoreapp3.1\etap1.runtimeconfig.dev.json
+F:\Dev_files\C#_NetCore\bin\Debug\netcoreapp3.1\etap1.dll
+F:\Dev_files\C#_NetCore\bin\Debug\netcoreapp3.1\etap1.pdb
+F:\Dev_files\C#_NetCore\obj\Debug\netcoreapp3.1\etap1.csprojAssemblyReference.cache
+F:\Dev_files\C#_NetCore\obj\Debug\netcoreapp3.1\etap1.AssemblyInfoInputs.cache
+F:\Dev_files\C#_NetCore\obj\Debug\netcoreapp3.1\etap1.AssemblyInfo.cs
+F:\Dev_files\C#_NetCore\obj\Debug\netcoreapp3.1\etap1.dll
+F:\Dev_files\C#_NetCore\obj\Debug\netcoreapp3.1\etap1.pdb
