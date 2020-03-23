@@ -3,12 +3,10 @@ using System.Collections.Generic;
 
 namespace CoreEscuela.Entidades
 {
-    public class Escuela
+    public class Escuela:ObjetoEscuelaBase
     {
         //public string name; MALA PRACTICA
-        //EMCAPSULAMIENTO       
-        public string UniqueId { get; private set; } = Guid.NewGuid().ToString();
-        public string Name { get; set; }
+        //EMCAPSULAMIENTO              
         public int YearCreation { get; set; }
         public string Pais { get; set; }
         public string Ciudad { get; set; }     
