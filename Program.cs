@@ -15,9 +15,13 @@ namespace etap1
             Printer.WriteTitle("Cursos Escuela");
             //Printer.Beep(2000, 5000, 3);     
             ImprimirCursosEscuela(engine.Escuela);
-
             Printer.WriteTitle("Alumnos Escuela");
             
+            Printer.DrawLine(20);
+            Printer.DrawLine(20);
+            Printer.DrawLine(20);
+            Printer.WriteTitle("Pruebas de Polimorfismo");
+
             /* var escuela = new Escuela("Platzy School", 2013, "Colombia", "Bogota");
             var escuela2 = new Escuela("SanPancho", 1850, TiposEscuela.Secundaria, ciudad:"Cusco");
             escuela.TipoEscuela = TiposEscuela.Primaria; */

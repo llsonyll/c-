@@ -15,7 +15,7 @@ namespace CoreEscuela.Entidades
         public List<Curso> Cursos { get; set; }
         //constructor
         public Escuela(string name, int year, string pais, string ciudad){
-            this.Name = name;
+            this.Nombre = name;
             this.YearCreation = year;
             this.Pais = pais;
             this.Ciudad = ciudad;
@@ -23,14 +23,14 @@ namespace CoreEscuela.Entidades
 
         public Escuela(string name, int year, TiposEscuela tipo,
                         string pais = "", string ciudad= ""){
-            (Name, YearCreation) = (name, year);
+            (Nombre, YearCreation) = (name, year);
             TipoEscuela = tipo;
             Pais = pais;
             Ciudad = ciudad;
         }
 
         public override string ToString(){
-            return $"Nombre: {Name}, Tipo: {TipoEscuela} \nPais: {Pais}, Ciudad: {Ciudad}";
+            return $"Nombre: {Nombre}, Tipo: {TipoEscuela} \nPais: {Pais}, Ciudad: {Ciudad}";
         }  
     }
 }
