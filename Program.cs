@@ -27,10 +27,9 @@ namespace etap1
             var test = new Evaluaciones(){Nombre = "Evaluacion de math", Nota = 4.5f};            
             ob = test;
 
-            if(ob is Alumno){
-                Alumno alumnoRecuparao = (Alumno)ob;
-            }
-            
+            var listaObjetos = engine.GetObjetosEscuela();
+
+
 
             /* var escuela = new Escuela("Platzy School", 2013, "Colombia", "Bogota");
             var escuela2 = new Escuela("SanPancho", 1850, TiposEscuela.Secundaria, ciudad:"Cusco");
