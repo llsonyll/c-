@@ -29,8 +29,6 @@ namespace etap1
 
             var listaObjetos = engine.GetObjetosEscuela();
 
-
-
             /* var escuela = new Escuela("Platzy School", 2013, "Colombia", "Bogota");
             var escuela2 = new Escuela("SanPancho", 1850, TiposEscuela.Secundaria, ciudad:"Cusco");
             escuela.TipoEscuela = TiposEscuela.Primaria; */

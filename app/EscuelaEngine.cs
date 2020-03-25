@@ -87,7 +87,7 @@ namespace CoreEscuela.App
             }
         }
         public List<ObjetoEscuelaBase> GetObjetosEscuela(){
-            var listaObj = new List<ObjetoEscuelaBase>9();
+            var listaObj = new List<ObjetoEscuelaBase>();
             //OBJETOS: CURSOS EVALUACIONES ALUMNOS ESCUELA
                 listaObj.Add(Escuela);
                 listaObj.AddRange(Escuela.Cursos);
