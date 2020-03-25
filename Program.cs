@@ -21,6 +21,16 @@ namespace etap1
             Printer.DrawLine(20);
             Printer.DrawLine(20);
             Printer.WriteTitle("Pruebas de Polimorfismo");
+            var AlumnoTest = new Alumno{Nombre= "Claire Underwood"};
+            ObjetoEscuelaBase ob = AlumnoTest;
+
+            var test = new Evaluaciones(){Nombre = "Evaluacion de math", Nota = 4.5f};            
+            ob = test;
+
+            if(ob is Alumno){
+                Alumno alumnoRecuparao = (Alumno)ob;
+            }
+            
 
             /* var escuela = new Escuela("Platzy School", 2013, "Colombia", "Bogota");
             var escuela2 = new Escuela("SanPancho", 1850, TiposEscuela.Secundaria, ciudad:"Cusco");
