@@ -19,7 +19,7 @@ namespace CoreEscuela.App
             CargarAsignaturas();
             //CargarEvaluaciones();
         }
-
+        #region 
         private void CargarCursos(){
             Escuela.Cursos = new List<Curso>(){
                 new Curso(){Nombre="101", Jornada = TiposJornada.Afternoon},
@@ -105,4 +105,5 @@ namespace CoreEscuela.App
             return listaObj;
         }
     }
+    #endregion
 }
